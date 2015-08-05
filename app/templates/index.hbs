@@ -1,0 +1,8 @@
+<h2>Search a company {{foo}} </h2>
+{{input value=search_item}}
+
+<ul>
+{{#each model as |item|}}
+  <li>{{item.name}}</li>
+{{/each}}
+</ul>
