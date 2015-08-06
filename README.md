@@ -3,7 +3,7 @@
 The stock-info-client allows user to lookup listed companies by name via
 a prefix match string. All companies matching the prefix are listed with
 their ticker symbol. Clicking on a company in the list presents a thirty
-price history.
+day price history.
 
 ## Prerequisites
 
