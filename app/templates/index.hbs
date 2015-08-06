@@ -5,6 +5,6 @@
 
 <ul>
 {{#each model as |item|}}
-  <li>{{item.symbol}} {{item.name}} <a href="prices?symbol={{item.symbol}}">Chart</a></li>
+  <li>{{item.name}} - {{item.symbol}}  <a href="prices?symbol={{item.symbol}}">Chart</a></li>
 {{/each}}
 </ul>

@@ -1,7 +1,9 @@
 # Stock-info-client
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+The stock-info-client allows user to lookup listed companies by name via
+a prefic match string. All companies matching the prefix are listed with
+their ticker symbol. Clicking on a company in the list presents a thirty
+price history.
 
 ## Prerequisites
 
@@ -22,7 +24,7 @@ You will need the following things properly installed on your computer.
 
 ## Running / Development
 
-* `ember server`
+* `ember server --proxy stock_info_server`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
 
 ### Code Generators
