@@ -1,10 +1,10 @@
-<h2>Search a company {{foo}} </h2>
+<h2>Search a company </h2>
 {{input value=search_item}}
 
-<button {{action 'search'}}>Contract</button>
+<button {{action 'search'}}>Search</button>
 
 <ul>
 {{#each model as |item|}}
-  <li>{{item.symbol}} {{item.name}} <a href="chart?symbol={{item.symbol}}">Chart</a></li>
+  <li>{{item.symbol}} {{item.name}} <a href="prices?symbol={{item.symbol}}">Chart</a></li>
 {{/each}}
 </ul>

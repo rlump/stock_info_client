@@ -8,7 +8,6 @@ export default Ember.Controller.extend({
   actions: {
     search : function() {
       var searchItem = this.get('search_item');
-      // alert(searchItem);
       this.transitionToRoute('/?name='+searchItem);
     }
   }
