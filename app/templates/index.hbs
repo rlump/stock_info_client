@@ -1,8 +1,10 @@
 <h2>Search a company {{foo}} </h2>
 {{input value=search_item}}
 
+<button {{action 'search'}}>Contract</button>
+
 <ul>
 {{#each model as |item|}}
-  <li>{{item.name}}</li>
+  <li>{{item.symbol}} {{item.name}} <a href="chart?symbol={{item.symbol}}">Chart</a></li>
 {{/each}}
 </ul>
