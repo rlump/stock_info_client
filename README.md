@@ -5,6 +5,8 @@ a prefix match string. All companies matching the prefix are listed with
 their ticker symbol. Clicking on a company in the list presents a thirty
 day price history.
 
+The program must be run in conjuction with its companion stock_info server.
+
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
@@ -24,6 +26,7 @@ You will need the following things properly installed on your computer.
 
 ## Running / Development
 
+* start or locate the stock_info server
 * `ember server --proxy stock_info_server`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
 
